@@ -1,3 +1,4 @@
+   
 .doctor{
   display: flex;
   align-items: center;        
@@ -11,7 +12,7 @@
 .arow{
   position: relative;
   width: 10px;
-  margin-right: 90px;
+  margin-right: 50px;
 }
 
 .doctor-image {
@@ -26,9 +27,9 @@
 }
 
 .na-me{
-  display: flex;
-  justify-content: start;
-  gap: 30px;
+  display: flex;   /* Active le mode flex */
+  justify-content: start;  /*aligne les éléments au début du conteneur*/
+  gap: 30px;    /*Espacement entre les éléments*/
   margin-bottom: 100px;
   margin-left: px;
 }
@@ -54,9 +55,9 @@
 
 
 .yellow{
-  display: grid;
-  justify-content: center;
-  align-items: center;
+  display: grid;  /* Active le mode grid */
+  justify-content: center; /*centre les éléments horizontalement dans le conteneur*/
+  align-items: center;  /* centre les éléments verticalement */
   margin-bottom: 100px;
 }
 .icons{
@@ -74,7 +75,7 @@
 }
 .card{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2,1fr); /* 2 colonnes de 1fr chacune */
   align-items: center;
   justify-content: center;
   gap: 20px;
